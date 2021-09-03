@@ -1,38 +1,83 @@
-.App {
-  text-align: center;
+/* **************************** Import Google Fonts **************************** */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+/* **************************** Site General Settings **************************** */
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+    font-size: 62.5%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@media (max-width: 992px) {
+    html {
+        font-size: 60%;
+    }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media (max-width: 768px) {
+    html {
+        font-size: 55%;
+    }
 }
 
-.App-link {
-  color: #61dafb;
+body {
+    background: var(--darkwhite);
+    font-family: "Poppins", sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* **************************** Color Variables **************************** */
+
+:root {
+    --darkblack: #212529;
+    --lightblack: #4c4d4d;
+
+    --darkwhite: #ffffff;
+    --lightwhite: #f8f9fa;
+
+    --darkgrey: #6c757d;
+
+    --lightyellow: #f5df4e;
+
+    --btnBg: #343a40;
+    --btnBgHover: #23272b;
+}
+
+/* **************************** Scroll Bar **************************** */
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: var(--lightblack);
+}
+
+/* **************************** Selection **************************** */
+
+::selection {
+    color: var(--darkwhite);
+    background: var(--lightyellow);
+}
+
+/* **************************** User Select None **************************** */
+
+img,
+.noselect {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+button.btn:active,
+button.btn:focus,
+a.btn:active,
+a.btn:focus {
+    box-shadow: none;
 }

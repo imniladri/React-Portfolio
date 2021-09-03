@@ -1,0 +1,86 @@
+/* **************************** Home Section Styles **************************** */
+
+section#home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--lightyellow);
+}
+
+section#home div.home {
+    position: relative;
+    padding: 4rem 8rem;
+}
+
+section#home div.home .biodata,
+section#home div.home .bioimg {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+section#home div.home h1 {
+    font-size: 5rem;
+    font-weight: 300;
+    color: var(--darkblack);
+    text-transform: uppercase;
+    line-height: 1.5;
+}
+
+section#home div.home h2 {
+    font-size: 9rem;
+    font-weight: 600;
+    color: var(--darkblack);
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+section#home div.home p {
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: var(--darkblack);
+    line-height: 3;
+}
+
+section#home div.home span {
+    margin: 2rem 0;
+}
+
+section#home div.home span button {
+    padding: 1.2rem 4rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+section#home div.home span button:nth-child(1) {
+    color: var(--darkwhite);
+    background: var(--btnBg);
+    border: 2px solid var(--btnBg);
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.15);
+    transition: all 0.4s ease;
+}
+
+section#home div.home span button:nth-child(1):hover {
+    background: var(--btnBgHover);
+    border: 2px solid var(--btnBgHover);
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.25);
+}
+
+section#home div.home span button:nth-child(2) {
+    font-size: 1.8rem;
+    transition: all 0.4s ease;
+}
+
+section#home div.home span button:nth-child(2):hover {
+    text-decoration: underline;
+}
+
+section#home div.home img {
+    border-radius: 50%;
+    border: 15px solid var(--lightwhite);
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.15);
+}
