@@ -1,0 +1,98 @@
+/* **************************** Biodata Comp Styles **************************** */
+
+section#biodata {
+    margin: 6rem auto;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section#biodata div.biodata {
+    position: relative;
+    padding: 2rem 8rem;
+}
+
+/* =================== Biodata Head =================== */
+
+section#biodata div.biodata .biodata_head {
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section#biodata div.biodata .biodata_head span {
+    margin: 0.5rem auto;
+    padding: 0 1rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--darkblack);
+    background: var(--lightyellow);
+    text-align: center;
+}
+
+section#biodata div.biodata .biodata_head h1 {
+    margin: 0.5rem auto;
+    font-size: 4rem;
+    font-weight: 600;
+    color: var(--darkblack);
+    text-align: center;
+}
+
+/* =================== Biodata Content =================== */
+
+section#biodata div.biodata .biodata_timeline {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section#biodata div.biodata .biodata_timeline h2 {
+    margin: 3rem 0 1rem;
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--darkblack);
+}
+
+section#biodata div.biodata .biodata_timeline .biodata_sub {
+    margin: 4rem auto;
+    padding: 0 2rem;
+    border-left: 3px solid var(--lightyellow);
+}
+
+/* =================== Biodata Card =================== */
+
+div.biodata_timeline div.biodata_sub .bio_card h4 {
+    margin: auto;
+    margin-bottom: 1rem;
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: var(--darkblack);
+}
+
+div.biodata_timeline div.biodata_sub .bio_card span {
+    margin: auto;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: var(--darkblack);
+}
+
+div.biodata_timeline div.biodata_sub .bio_card p {
+    margin: 1rem auto 1.5rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--darkgrey);
+    line-height: 1.8;
+    word-spacing: -2px;
+}
+
+div.biodata_timeline div.biodata_sub .bio_card hr {
+    margin: 3rem 0;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.05);
+}

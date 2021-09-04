@@ -1,4 +1,4 @@
-/* **************************** Home Section Styles **************************** */
+/* **************************** Home Comp Styles **************************** */
 
 section#home {
     position: relative;
@@ -54,6 +54,7 @@ section#home div.home span button {
     padding: 1.2rem 4rem;
     font-size: 1.6rem;
     font-weight: 500;
+    letter-spacing: 0.5px;
 }
 
 section#home div.home span button:nth-child(1) {

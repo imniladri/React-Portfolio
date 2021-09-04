@@ -1,0 +1,110 @@
+/* **************************** Navbar Styles **************************** */
+
+header {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    padding: 1rem 10rem;
+    background: var(--lightyellow);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* **************************** Header Logo **************************** */
+
+header a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+header a img {
+    margin: auto 0.2rem;
+    width: 3.5rem;
+    height: auto;
+}
+
+header a h2 {
+    margin: auto 0.2rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--darkblack);
+}
+
+/* **************************** Header Menu **************************** */
+
+header .menu_btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    z-index: 20;
+}
+
+/* ================== Menu Open ================== */
+header .menu_btn span.box {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background: var(--darkblack);
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+
+header .menu_btn span.box-1 {
+    top: 6px;
+    left: 6px;
+}
+
+header .menu_btn span.box-2 {
+    top: 6px;
+    right: 6px;
+}
+
+header .menu_btn span.box-3 {
+    bottom: 6px;
+    left: 6px;
+}
+
+header .menu_btn span.box-4 {
+    bottom: 6px;
+    right: 6px;
+}
+
+header .menu_btn.active span.box {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+}
+
+/* ================== Menu Close ================== */
+header .menu_btn span.cross {
+    position: absolute;
+    width: 36px;
+    height: 4px;
+    background: var(--darkblack);
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+
+header .menu_btn span.cross-1 {
+    transform: rotate(45deg) scaleX(0);
+}
+
+header .menu_btn span.cross-2 {
+    transform: rotate(-45deg) scaleX(0);
+}
+
+header .menu_btn.active span.cross-1 {
+    transform: rotate(45deg) scaleX(1);
+}
+
+header .menu_btn.active span.cross-2 {
+    transform: rotate(-45deg) scaleX(1);
+}
