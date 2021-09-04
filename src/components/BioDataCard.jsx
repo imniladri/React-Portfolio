@@ -13,4 +13,14 @@ function BioDataCard(props) {
     );
 }
 
-export default BioDataCard;
+function BioSkillsIcons(props) {
+    return (
+        <>
+            <div className="skill">
+                <img src={props.icon} alt={props.alt} />
+            </div>
+        </>
+    );
+}
+
+export { BioDataCard, BioSkillsIcons };

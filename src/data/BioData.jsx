@@ -57,6 +57,22 @@ const BioDataExp = [
     },
 ];
 
-const BioDataSkills = [];
+const BioDataSkills = [
+    {
+        id: 1,
+        skills_icon: "assets/icons/html.svg",
+        skills_alt: "HTML",
+    },
+    {
+        id: 2,
+        skills_icon: "assets/icons/css.svg",
+        skills_alt: "CSS",
+    },
+    {
+        id: 3,
+        skills_icon: "assets/icons/js.svg",
+        skills_alt: "JS",
+    },
+];
 
 export { BioDataHead, BioDataEdu, BioDataExp, BioDataSkills };

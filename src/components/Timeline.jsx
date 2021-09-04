@@ -1,5 +1,5 @@
 import React from "react";
-import BioDataCard from "./BioDataCard";
+import { BioDataCard } from "./BioDataCard";
 import { BioDataHead, BioDataEdu, BioDataExp } from "../data/BioData";
 
 function Timeline() {
