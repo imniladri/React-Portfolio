@@ -10,6 +10,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    transition: all 0.2s ease;
+}
+
+header.scrolled {
+    background: var(--darkblack);
 }
 
 /* **************************** Header Logo **************************** */
@@ -27,11 +32,19 @@ header a img {
     height: auto;
 }
 
+header.scrolled a img {
+    filter: invert(1);
+}
+
 header a h2 {
     margin: auto 0.2rem;
     font-size: 2.5rem;
     font-weight: 600;
     color: var(--darkblack);
+}
+
+header.scrolled a h2 {
+    color: var(--darkwhite);
 }
 
 /* **************************** Header Navbar **************************** */
@@ -73,7 +86,7 @@ header nav.active div.nav_menu {
     transform: translateY(0%);
 }
 
-header nav div.nav_menu a.btn {
+header nav div.nav_menu .btn {
     margin: 0.5rem auto;
     font-size: 3rem;
     font-weight: 600;
@@ -82,7 +95,8 @@ header nav div.nav_menu a.btn {
     transition: all 0.3s ease;
 }
 
-header nav div.nav_menu a.btn:hover {
+header nav div.nav_menu .btn:hover,
+header nav div.nav_menu .btn.active {
     color: var(--lightyellow);
 }
 
@@ -101,14 +115,14 @@ header nav.active div.social_link {
     transform: scaleX(1);
 }
 
-header nav div.social_link button.btn {
+header nav div.social_link a.btn {
     margin: 0.5rem;
     font-size: 3.5rem;
     color: var(--darkwhite);
     transition: all 0.3s ease;
 }
 
-header nav div.social_link button.btn:hover {
+header nav div.social_link a.btn:hover {
     color: var(--lightyellow);
 }
 
@@ -133,6 +147,10 @@ header div.menu_btn span.box {
     background: var(--darkblack);
     border-radius: 2px;
     transition: all 0.3s ease;
+}
+
+header.scrolled div.menu_btn span.box {
+    background: var(--darkwhite);
 }
 
 header div.menu_btn span.box-1 {
@@ -170,6 +188,10 @@ header div.menu_btn span.cross {
     background: var(--darkblack);
     border-radius: 2px;
     transition: all 0.3s ease;
+}
+
+header.scrolled div.menu_btn span.cross {
+    background: var(--darkwhite);
 }
 
 header div.menu_btn span.cross-1 {

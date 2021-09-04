@@ -1,19 +1,21 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { Link } from "react-scroll";
+import { NavLinkData, NavSocialData } from "../data/NavData";
 import "../css/Navbar.css";
-import {
-    FaLinkedin,
-    FaGithub,
-    FaCodepen,
-    FaDiscord,
-    FaGlobe,
-} from "react-icons/fa";
 
 function Navbar() {
     const [isActive, setisActive] = useState(false);
+    const [isScroll, setisScroll] = useState(0);
+
+    useEffect(() => {
+        window.addEventListener("scroll", () => {
+            setisScroll(window.scrollY > 100);
+        });
+    }, []);
 
     return (
         <>
-            <header>
+            <header className={isScroll ? "scrolled" : ""}>
                 <a href="https://react-portfolio-imniladri.vercel.app/">
                     <img src="favicon.ico" alt="React Logo" />
                     <h2>React</h2>
@@ -35,39 +37,39 @@ function Navbar() {
 
                 <nav className={isActive ? "active" : ""}>
                     <div className="nav_menu">
-                        <a href="#home" className="btn">
-                            Home
-                        </a>
-                        <a href="#about" className="btn">
-                            About
-                        </a>
-                        <a href="#work" className="btn">
-                            Works
-                        </a>
-                        <a href="#biodata" className="btn">
-                            Biodata
-                        </a>
-                        <a href="#contact" className="btn">
-                            Contact
-                        </a>
+                        {NavLinkData.map((val) => {
+                            return (
+                                <Link
+                                    key={val.id}
+                                    to={val.to}
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-50}
+                                    duration={100}
+                                    className="btn"
+                                    activeClass="active"
+                                    onClick={() => {
+                                        setisActive(!isActive);
+                                    }}
+                                >
+                                    {val.name}
+                                </Link>
+                            );
+                        })}
                     </div>
 
                     <div className="social_link">
-                        <button className="btn">
-                            <FaLinkedin />
-                        </button>
-                        <button className="btn">
-                            <FaGithub />
-                        </button>
-                        <button className="btn">
-                            <FaCodepen />
-                        </button>
-                        <button className="btn">
-                            <FaDiscord />
-                        </button>
-                        <button className="btn">
-                            <FaGlobe />
-                        </button>
+                        {NavSocialData.map((val) => {
+                            return (
+                                <a
+                                    key={val.id}
+                                    href={val.social_link}
+                                    className="btn"
+                                >
+                                    {val.social_icon}
+                                </a>
+                            );
+                        })}
                     </div>
                 </nav>
             </header>
