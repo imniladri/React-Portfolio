@@ -19,6 +19,7 @@ function Biodata() {
                     </div>
 
                     <div className="biodata_skills">
+                        <h2>{BioDataHead[0].bio_skills_sub_head}</h2>
                         {BioDataSkills.map((val) => {
                             return (
                                 <BioSkillsIcons

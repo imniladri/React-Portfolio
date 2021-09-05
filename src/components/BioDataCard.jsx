@@ -17,7 +17,7 @@ function BioSkillsIcons(props) {
     return (
         <>
             <div className="skill">
-                <img src={props.icon} alt={props.alt} />
+                <object data={props.icon} alt={props.alt}></object>
             </div>
         </>
     );

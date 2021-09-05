@@ -73,6 +73,46 @@ const BioDataSkills = [
         skills_icon: "assets/icons/js.svg",
         skills_alt: "JS",
     },
+    {
+        id: 4,
+        skills_icon: "assets/icons/react.svg",
+        skills_alt: "React",
+    },
+    {
+        id: 5,
+        skills_icon: "assets/icons/jquery.svg",
+        skills_alt: "Jquery",
+    },
+    {
+        id: 6,
+        skills_icon: "assets/icons/sass.svg",
+        skills_alt: "Sass",
+    },
+    {
+        id: 7,
+        skills_icon: "assets/icons/nodejs.svg",
+        skills_alt: "Node JS",
+    },
+    {
+        id: 8,
+        skills_icon: "assets/icons/php.svg",
+        skills_alt: "PHP",
+    },
+    {
+        id: 9,
+        skills_icon: "assets/icons/mongodb.svg",
+        skills_alt: "Mongo DB",
+    },
+    {
+        id: 10,
+        skills_icon: "assets/icons/git.svg",
+        skills_alt: "Git",
+    },
+    {
+        id: 11,
+        skills_icon: "assets/icons/svg.svg",
+        skills_alt: "SVG",
+    },
 ];
 
 export { BioDataHead, BioDataEdu, BioDataExp, BioDataSkills };
