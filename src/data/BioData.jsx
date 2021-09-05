@@ -6,6 +6,9 @@ const BioDataHead = [
         bio_edu_sub_head: "My Education",
         bio_exp_sub_head: "My Experience",
         bio_skills_sub_head: "My Skills",
+
+        bio_btn_1_text: "Downlaod CV",
+        bio_btn_2_text: "Hire Me",
     },
 ];
 

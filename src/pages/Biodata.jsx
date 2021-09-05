@@ -20,15 +20,26 @@ function Biodata() {
 
                     <div className="biodata_skills">
                         <h2>{BioDataHead[0].bio_skills_sub_head}</h2>
-                        {BioDataSkills.map((val) => {
-                            return (
-                                <BioSkillsIcons
-                                    key={val.id}
-                                    icon={val.skills_icon}
-                                    alt={val.skills_alt}
-                                />
-                            );
-                        })}
+                        <div className="skills_wrapper">
+                            {BioDataSkills.map((val) => {
+                                return (
+                                    <BioSkillsIcons
+                                        key={val.id}
+                                        icon={val.skills_icon}
+                                        alt={val.skills_alt}
+                                    />
+                                );
+                            })}
+                        </div>
+                    </div>
+
+                    <div className="biodata_btn">
+                        <button className="btn">
+                            {BioDataHead[0].bio_btn_1_text}
+                        </button>
+                        <button className="btn">
+                            {BioDataHead[0].bio_btn_2_text}
+                        </button>
                     </div>
                 </div>
             </section>
