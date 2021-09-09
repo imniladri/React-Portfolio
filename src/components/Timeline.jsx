@@ -6,7 +6,7 @@ function Timeline() {
     return (
         <>
             <div className="col-lg-6">
-                <h2>{BioDataHead[0].bio_edu_sub_head}</h2>
+                <h2>{BioDataHead.bio_edu_sub_head}</h2>
                 <div className="biodata_sub">
                     {BioDataEdu.map((val) => {
                         return (
@@ -22,7 +22,7 @@ function Timeline() {
             </div>
 
             <div className="col-lg-6">
-                <h2>{BioDataHead[0].bio_exp_sub_head}</h2>
+                <h2>{BioDataHead.bio_exp_sub_head}</h2>
                 <div className="biodata_sub">
                     {BioDataExp.map((val) => {
                         return (

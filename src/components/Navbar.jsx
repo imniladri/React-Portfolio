@@ -17,7 +17,7 @@ function Navbar() {
         <>
             <header className={isScroll ? "scrolled" : ""}>
                 <a href="https://react-portfolio-imniladri.vercel.app/">
-                    <img src="favicon.ico" alt="React Logo" />
+                    <img src="./assets/logo.svg" alt="React Logo" />
                     <h2>React</h2>
                 </a>
 

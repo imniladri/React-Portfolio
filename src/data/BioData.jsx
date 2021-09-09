@@ -1,16 +1,14 @@
-const BioDataHead = [
-    {
-        bio_head_tag: "Resume",
-        bio_head_title: "A summary of My Resume",
+const BioDataHead = {
+    bio_head_tag: "Resume",
+    bio_head_title: "A summary of My Resume",
 
-        bio_edu_sub_head: "My Education",
-        bio_exp_sub_head: "My Experience",
-        bio_skills_sub_head: "My Skills",
+    bio_edu_sub_head: "My Education",
+    bio_exp_sub_head: "My Experience",
+    bio_skills_sub_head: "My Skills",
 
-        bio_btn_1_text: "Downlaod CV",
-        bio_btn_2_text: "Hire Me",
-    },
-];
+    bio_btn_1_text: "Downlaod CV",
+    bio_btn_2_text: "Hire Me",
+};
 
 const BioDataEdu = [
     {

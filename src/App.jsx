@@ -10,6 +10,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Work from "./pages/Work";
 import Biodata from "./pages/Biodata";
+import Projects from "./pages/Projects";
 
 function App() {
     return (
@@ -19,6 +20,7 @@ function App() {
             <About />
             <Work />
             <Biodata />
+            <Projects />
         </>
     );
 }

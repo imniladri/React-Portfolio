@@ -9,8 +9,8 @@ function Work() {
             <section id="work">
                 <div className="work container">
                     <div className="work_head">
-                        <span>{WorkData[0].work_head_tag}</span>
-                        <h1>{WorkData[0].work_head_title}</h1>
+                        <span>{WorkData.work_head_tag}</span>
+                        <h1>{WorkData.work_head_title}</h1>
                     </div>
 
                     <div className="work_content">

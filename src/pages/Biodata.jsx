@@ -10,8 +10,8 @@ function Biodata() {
             <section id="biodata">
                 <div className="biodata container">
                     <div className="biodata_head">
-                        <span>{BioDataHead[0].bio_head_tag}</span>
-                        <h1>{BioDataHead[0].bio_head_title}</h1>
+                        <span>{BioDataHead.bio_head_tag}</span>
+                        <h1>{BioDataHead.bio_head_title}</h1>
                     </div>
 
                     <div className="biodata_timeline row">
@@ -19,7 +19,7 @@ function Biodata() {
                     </div>
 
                     <div className="biodata_skills">
-                        <h2>{BioDataHead[0].bio_skills_sub_head}</h2>
+                        <h2>{BioDataHead.bio_skills_sub_head}</h2>
                         <div className="skills_wrapper">
                             {BioDataSkills.map((val) => {
                                 return (
@@ -32,7 +32,7 @@ function Biodata() {
                             })}
                         </div>
                         <button className="btn">
-                            {BioDataHead[0].bio_btn_1_text}
+                            {BioDataHead.bio_btn_1_text}
                         </button>
                     </div>
                 </div>

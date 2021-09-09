@@ -1,12 +1,10 @@
 import { MdDesktopWindows, MdAndroid, MdBorderColor } from "react-icons/md";
 import { FaRobot, FaPaintBrush, FaBullhorn } from "react-icons/fa";
 
-const WorkData = [
-    {
-        work_head_tag: "What I Do?",
-        work_head_title: "How I can help your next project",
-    },
-];
+const WorkData = {
+    work_head_tag: "What I Do?",
+    work_head_title: "How I can help your next project",
+};
 
 const WorkCardData = [
     {
