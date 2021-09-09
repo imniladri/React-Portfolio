@@ -11,6 +11,7 @@ import About from "./pages/About";
 import Work from "./pages/Work";
 import Biodata from "./pages/Biodata";
 import Projects from "./pages/Projects";
+import Hire from "./pages/Hire";
 
 function App() {
     return (
@@ -21,6 +22,7 @@ function App() {
             <Work />
             <Biodata />
             <Projects />
+            <Hire />
         </>
     );
 }
