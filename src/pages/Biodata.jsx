@@ -31,14 +31,8 @@ function Biodata() {
                                 );
                             })}
                         </div>
-                    </div>
-
-                    <div className="biodata_btn">
                         <button className="btn">
                             {BioDataHead[0].bio_btn_1_text}
-                        </button>
-                        <button className="btn">
-                            {BioDataHead[0].bio_btn_2_text}
                         </button>
                     </div>
                 </div>

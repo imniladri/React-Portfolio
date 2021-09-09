@@ -96,28 +96,49 @@ div.biodata_timeline div.biodata_sub .bio_card hr {
     margin: 3rem 0;
     width: 100%;
     height: 0.5px;
-    background: rgba(0,0,0,0.4);
+    background: rgba(0, 0, 0, 0.4);
 }
 
 /* =================== Biodata Skills =================== */
 
 section#biodata div.biodata .biodata_skills {
     position: relative;
-    margin: 2rem 1.5rem;
-    border-left: 3px solid var(--lightyellow);
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 section#biodata div.biodata .biodata_skills h2 {
-    margin: auto 4rem;
+    margin: 2rem auto;
     font-size: 4rem;
     font-weight: 600;
     color: var(--darkblack);
+    border-bottom: 4px solid var(--lightyellow);
+}
+
+section#biodata div.biodata .biodata_skills button.btn {
+    margin: 2rem auto;
+    padding: 1.2rem 4rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: var(--btnBg);
+    background: var(--darkwhite);
+    border: 3px solid var(--btnBg);
+    transition: all 0.4s ease;
+}
+
+section#biodata div.biodata .biodata_skills button.btn:hover {
+    color: var(--darkwhite);
+    background: var(--btnBg);
 }
 
 section#biodata div.biodata .biodata_skills .skills_wrapper {
-    margin: 2rem 0;
+    margin: 2rem auto;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -136,32 +157,4 @@ section#biodata div.biodata .skills_wrapper .skill:hover {
 section#biodata div.biodata .skills_wrapper .skill img {
     width: 7rem;
     height: auto;
-}
-
-/* =================== Biodata Buttons =================== */
-
-section#biodata div.biodata .biodata_btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-section#biodata div.biodata .biodata_btn button.btn {
-    margin: 2rem 1rem;
-    padding: 1.2rem 4rem;
-    font-size: 1.6rem;
-    font-weight: 500;
-    letter-spacing: 0.5px;
-    border: 3px solid var(--btnBg);
-    transition: all 0.4s ease;
-}
-
-section#biodata div.biodata .biodata_btn button.btn:nth-child(1) {
-    color: var(--darkwhite);
-    background: var(--btnBg);
-}
-
-section#biodata div.biodata .biodata_btn button.btn:nth-child(2) {
-    color: var(--btnBg);
-    background: var(--darkwhite);
 }
