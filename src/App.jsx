@@ -13,6 +13,7 @@ import Biodata from "./pages/Biodata";
 import Projects from "./pages/Projects";
 import Hire from "./pages/Hire";
 import Contact from "./pages/Contact";
+import Footer from "./pages/Footer";
 
 function App() {
     return (
@@ -25,6 +26,7 @@ function App() {
             <Projects />
             <Hire />
             <Contact />
+            <Footer />
         </>
     );
 }
