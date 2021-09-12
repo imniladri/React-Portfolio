@@ -105,6 +105,12 @@ section#home div.home img {
         align-items: center;
     }
 
+    section#home div.home img {
+        width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
     section#home div.home h1 {
         font-size: 4rem;
     }
@@ -114,18 +120,9 @@ section#home div.home img {
     section#home div.home p {
         font-size: 2rem;
     }
-    section#home div.home img {
-        width: 50%;
-    }
 }
 
 @media (max-width: 472px) {
-    section#home div.home h1 {
-        font-size: 3rem;
-    }
-    section#home div.home h2 {
-        font-size: 5rem;
-    }
     section#home div.home p {
         line-height: 2;
     }
@@ -135,6 +132,15 @@ section#home div.home img {
     section#home div.home img {
         width: 80%;
         border: 1rem solid var(--lightwhite);
+    }
+}
+
+@media (max-width: 366px) {
+    section#home div.home h1 {
+        font-size: 3.5rem;
+    }
+    section#home div.home h2 {
+        font-size: 6rem;
     }
 }
 
