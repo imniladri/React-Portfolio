@@ -19,10 +19,12 @@ section#footer div.footer {
     justify-content: space-between;
     align-items: center;
     align-content: center;
+    flex-wrap: wrap;
     border-top: 3px solid var(--darkwhite);
 }
 
 section#footer div.footer h4 {
+    margin: 1rem;
     font-size: 1.7rem;
     font-weight: 400;
     color: var(--darkwhite);
@@ -47,3 +49,19 @@ section#footer div.footer h4 a {
 section#footer div.footer h4 a:hover {
     text-decoration: underline;
 }
+
+/* **************************** Responsive Medias **************************** */
+
+@media (max-width: 992px) {
+    section#footer div.footer {
+        padding: 6rem 4rem;
+    }
+}
+
+@media (max-width: 768px) {
+    section#footer div.footer {
+        padding: 4rem 2rem;
+    }
+}
+
+/* **************************** Styles End **************************** */

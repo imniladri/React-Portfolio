@@ -127,3 +127,19 @@ section#projects div.projects .projects_card:hover a.info span,
 section#projects div.projects .projects_card:hover a.info h4 {
     opacity: 1;
 }
+
+/* **************************** Responsive Medias **************************** */
+
+@media (max-width: 992px) {
+    section#projects div.projects .projects_head h1 {
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 472px) {
+    section#projects div.projects .projects_content .projects_card img {
+        width: 40rem;
+    }
+}
+
+/* **************************** Styles End **************************** */

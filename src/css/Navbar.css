@@ -107,6 +107,7 @@ header nav div.social_link {
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    flex-wrap: wrap;
     transform: scaleX(0);
     transition: all 0.3s ease;
 }
@@ -134,8 +135,8 @@ header div.menu_btn {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40px;
-    height: 40px;
+    width: 4rem;
+    height: 4rem;
     cursor: pointer;
     z-index: 20;
 }
@@ -143,8 +144,8 @@ header div.menu_btn {
 /* ================== Menu Open ================== */
 header div.menu_btn span.box {
     position: absolute;
-    width: 12px;
-    height: 12px;
+    width: 1.2rem;
+    height: 1.2rem;
     background: var(--darkblack);
     border-radius: 2px;
     transition: all 0.3s ease;
@@ -155,23 +156,23 @@ header.scrolled div.menu_btn span.box {
 }
 
 header div.menu_btn span.box-1 {
-    top: 6px;
-    left: 6px;
+    top: 0.6rem;
+    left: 0.6rem;
 }
 
 header div.menu_btn span.box-2 {
-    top: 6px;
-    right: 6px;
+    top: 0.6rem;
+    right: 0.6rem;
 }
 
 header div.menu_btn span.box-3 {
-    bottom: 6px;
-    left: 6px;
+    bottom: 0.6rem;
+    left: 0.6rem;
 }
 
 header div.menu_btn span.box-4 {
-    bottom: 6px;
-    right: 6px;
+    bottom: 0.6rem;
+    right: 0.6rem;
 }
 
 header div.menu_btn.active span.box {
@@ -184,8 +185,8 @@ header div.menu_btn.active span.box {
 /* ================== Menu Close ================== */
 header div.menu_btn span.cross {
     position: absolute;
-    width: 36px;
-    height: 4px;
+    width: 3.6rem;
+    height: 0.4rem;
     background: var(--darkblack);
     border-radius: 2px;
     transition: all 0.3s ease;
@@ -214,3 +215,13 @@ header div.menu_btn.active span.cross-1 {
 header div.menu_btn.active span.cross-2 {
     transform: rotate(-45deg) scaleX(1);
 }
+
+/* **************************** Responsive Medias **************************** */
+
+@media (max-width: 992px) {
+    header {
+        padding: 2rem 4rem;
+    }
+}
+
+/* **************************** Styles End **************************** */

@@ -17,6 +17,7 @@ section#home div.home {
 
 section#home div.home .biodata,
 section#home div.home .bioimg {
+    margin: 1rem auto;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -82,6 +83,59 @@ section#home div.home span button:nth-child(2):hover {
 
 section#home div.home img {
     border-radius: 50%;
-    border: 15px solid var(--lightwhite);
+    border: 1.5rem solid var(--lightwhite);
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.15);
 }
+
+/* **************************** Responsive Medias **************************** */
+
+@media (max-width: 1240px) {
+    section#home div.home {
+        padding: 4rem 1rem;
+    }
+}
+
+@media (max-width: 992px) {
+    section#home {
+        height: 100%;
+        padding: 10rem 2rem 2rem;
+    }
+
+    section#home div.home .bioimg {
+        align-items: center;
+    }
+
+    section#home div.home h1 {
+        font-size: 4rem;
+    }
+    section#home div.home h2 {
+        font-size: 7rem;
+    }
+    section#home div.home p {
+        font-size: 2rem;
+    }
+    section#home div.home img {
+        width: 50%;
+    }
+}
+
+@media (max-width: 472px) {
+    section#home div.home h1 {
+        font-size: 3rem;
+    }
+    section#home div.home h2 {
+        font-size: 5rem;
+    }
+    section#home div.home p {
+        line-height: 2;
+    }
+    section#home div.home span button {
+        padding: 1.2rem 2rem;
+    }
+    section#home div.home img {
+        width: 80%;
+        border: 1rem solid var(--lightwhite);
+    }
+}
+
+/* **************************** Styles End **************************** */

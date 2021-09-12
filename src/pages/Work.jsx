@@ -13,7 +13,7 @@ function Work() {
                         <h1>{WorkData.work_head_title}</h1>
                     </div>
 
-                    <div className="work_content">
+                    <div className="work_content row">
                         {WorkCardData.map((val) => {
                             return (
                                 <WorkCard

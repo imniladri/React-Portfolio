@@ -158,3 +158,23 @@ section#biodata div.biodata .skills_wrapper .skill img {
     width: 7rem;
     height: auto;
 }
+
+/* **************************** Responsive Medias **************************** */
+
+@media (max-width: 1240px) {
+    section#biodata div.biodata {
+        padding: 4rem 2rem;
+    }
+}
+
+@media (max-width: 992px) {
+    section#biodata div.biodata .biodata_head h1 {
+        font-size: 3.5rem;
+    }
+
+    section#biodata div.biodata .biodata_skills h2 {
+        font-size: 3.5rem;
+    }
+}
+
+/* **************************** Styles End **************************** */

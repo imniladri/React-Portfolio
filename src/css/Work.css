@@ -94,3 +94,23 @@ section#work div.work .work_content .work_card p {
     line-height: 1.8;
     word-spacing: -1px;
 }
+
+/* **************************** Responsive Medias **************************** */
+
+@media (max-width: 1240px) {
+    section#work div.work {
+        padding: 4rem 2rem;
+    }
+}
+
+@media (max-width: 992px) {
+    section#work div.work .work_head h1 {
+        font-size: 3.5rem;
+    }
+
+    section#work div.work .work_content .work_card span {
+        font-size: 6rem;
+    }
+}
+
+/* **************************** Styles Head **************************** */

@@ -1,7 +1,7 @@
 /* **************************** Conatct Comp Styles **************************** */
 
 section#contact {
-    margin: 10rem auto 0;
+    margin: 5rem auto 0;
     position: relative;
     width: 100%;
     height: 100%;
@@ -28,8 +28,7 @@ section#contact div.contact .content h2 {
     font-size: 3.8rem;
     font-weight: 600;
     color: var(--darkblack);
-    letter-spacing: 1px;
-    line-height: 1.8;
+    letter-spacing: 0.5px;
 }
 
 section#contact div.contact .content p {
@@ -91,8 +90,7 @@ section#contact div.contact .form h2 {
     font-size: 3.8rem;
     font-weight: 600;
     color: var(--darkblack);
-    letter-spacing: 1px;
-    line-height: 1.8;
+    letter-spacing: 0.5px;
 }
 
 section#contact div.contact form .form-group {
@@ -141,3 +139,34 @@ section#contact div.contact form button.btn-submit {
 section#contact div.contact form button.btn-submit:hover {
     background: var(--btnBgHover);
 }
+
+/* **************************** Responsive Medias **************************** */
+
+@media (max-width: 1240px) {
+    section#contact div.contact {
+        padding: 8rem 2rem;
+    }
+
+    section#contact div.contact .content h2,
+    section#contact div.contact .form h2 {
+        font-size: 3.4rem;
+    }
+}
+
+@media (max-width: 992px) {
+    section#contact div.contact .content,
+    section#contact div.contact .form {
+        margin: auto;
+        padding: 1rem;
+    }
+
+    section#contact div.contact .content p,
+    section#contact div.contact .content h4 {
+        margin: 2rem 0;
+    }
+    section#contact div.contact .content ul {
+        margin: 3rem 0;
+    }
+}
+
+/* **************************** Styles End **************************** */

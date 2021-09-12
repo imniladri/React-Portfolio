@@ -12,7 +12,7 @@ function About() {
                         <h1>{AboutData.about_head_title}</h1>
                     </div>
 
-                    <div className="about_content">
+                    <div className="about_content row">
                         <div className="col-lg-8">
                             <h2>
                                 Hi, I'm{" "}
@@ -30,20 +30,20 @@ function About() {
                         </div>
                     </div>
 
-                    <div className="about_footer">
-                        <div className="col-6 col-lg-3">
+                    <div className="about_footer row">
+                        <div className="my-2 col-12 col-sm-6 col-lg-3">
                             <span>Name:</span>
                             <p>{AboutData.about_footer_name}</p>
                         </div>
-                        <div className="col-6 col-lg-4">
+                        <div className="my-2 col-12 col-sm-6 col-lg-4">
                             <span>Email:</span>
                             <p>{AboutData.about_footer_email}</p>
                         </div>
-                        <div className="col-6 col-lg-3">
+                        <div className="my-2 col-12 col-sm-6 col-lg-3">
                             <span>Date of Birth:</span>
                             <p>{AboutData.about_footer_dob}</p>
                         </div>
-                        <div className="col-6 col-lg-2">
+                        <div className="my-2 col-12 col-sm-6 col-lg-2">
                             <span>From:</span>
                             <p>{AboutData.about_footer_place}</p>
                         </div>

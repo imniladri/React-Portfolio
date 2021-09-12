@@ -1,7 +1,7 @@
 /* **************************** Hire Comp Styles **************************** */
 
 section#hire {
-    margin: 10rem auto;
+    margin: 5rem auto;
     padding: 20rem;
     position: relative;
     width: 100%;
@@ -33,6 +33,7 @@ section#hire div.hire h2 {
     font-weight: 600;
     color: var(--darkwhite);
     letter-spacing: 0.5px;
+    text-align: center;
 }
 
 section#hire div.hire button.btn {
@@ -44,3 +45,24 @@ section#hire div.hire button.btn {
     background: var(--lightyellow);
     border-radius: 0;
 }
+
+/* **************************** Responsive Medias **************************** */
+
+@media (max-width: 768px) {
+    section#hire {
+        margin: auto;
+        padding: 15rem;
+    }
+
+    section#hire div.hire {
+        padding: 1rem 2rem;
+    }
+    section#hire div.hire h2 {
+        font-size: 3.2rem;
+    }
+    section#hire div.hire button.btn {
+        padding: 1rem 3.2rem;
+    }
+}
+
+/* **************************** Styles End **************************** */
