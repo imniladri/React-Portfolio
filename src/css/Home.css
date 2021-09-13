@@ -8,6 +8,7 @@ section#home {
     justify-content: center;
     align-items: center;
     background: var(--lightyellow);
+    overflow-x: hidden;
 }
 
 section#home div.home {
