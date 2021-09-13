@@ -224,4 +224,10 @@ header div.menu_btn.active span.cross-2 {
     }
 }
 
+@media (max-width: 768px) {
+    header {
+        padding: 2rem;
+    }
+}
+
 /* **************************** Styles End **************************** */

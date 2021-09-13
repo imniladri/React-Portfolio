@@ -1,6 +1,6 @@
 const BioDataHead = {
     bio_head_tag: "Resume",
-    bio_head_title: "A summary of My Resume",
+    bio_head_title: "A Summary of My Resume",
 
     bio_edu_sub_head: "My Education",
     bio_exp_sub_head: "My Experience",
@@ -37,22 +37,22 @@ const BioDataEdu = [
 const BioDataExp = [
     {
         id: 1,
-        exp_course: "Font End Developer",
+        exp_course: "Front End Developer",
         exp_place: "SAAC / 2021 - Current",
         exp_desc:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.",
     },
     {
         id: 2,
-        exp_course: "UI/UX",
-        exp_place: "Self Projects / 2019 - Current",
+        exp_course: "Web Team",
+        exp_place: "GDSC JGEC / 2021 - Current",
         exp_desc:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.",
     },
     {
         id: 3,
-        exp_course: "HTML Developer",
-        exp_place: "JNV / 2017 - 2017",
+        exp_course: "UI/UX",
+        exp_place: "Self Projects / 2019 - Current",
         exp_desc:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.",
     },

@@ -3,7 +3,6 @@ import {
     FaGithub,
     FaCodepen,
     FaDiscord,
-    FaGlobe,
     FaTwitter,
 } from "react-icons/fa";
 
@@ -63,11 +62,6 @@ const NavSocialData = [
     },
     {
         id: 5,
-        social_icon: <FaGlobe />,
-        social_link: "",
-    },
-    {
-        id: 6,
         social_icon: <FaTwitter />,
         social_link: "",
     },

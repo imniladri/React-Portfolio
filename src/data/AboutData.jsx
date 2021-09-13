@@ -4,7 +4,7 @@ const AboutData = {
 
     about_content_name: "Niladri Mondal",
     about_content_desc:
-        "I'm a passionate front end developer with a keen eye in design. I enjoy developing simple, clean and slick websites that provide real value to the end user. Delivering work within time and budget which meets client’s requirements is our moto.",
+        "I'm a creative & passionate front end developer with a keen eye in design. I enjoy developing simple, clean, attractive and slick websites that provide real value & interests to the end user. Delivering work within time and budget which meets client’s requirements is my moto.",
     about_content_exp: "2",
 
     about_footer_name: "Niladri Mondal",

@@ -112,7 +112,7 @@ section#projects div.projects .projects_content .projects_card a.info h4 {
     font-weight: 500;
     color: var(--darkwhite);
     line-height: 1.2;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     text-align: center;
     opacity: 0;
     transition: all 0.4s ease;

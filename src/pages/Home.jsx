@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/Home.css";
+import { Link } from "react-scroll";
 import HomeData from "../data/HomeData";
 
 function Home() {
@@ -13,12 +14,24 @@ function Home() {
                             <h2>{HomeData.tag_line_2}</h2>
                             <p>{HomeData.location}</p>
                             <span>
-                                <button className="btn">
+                                <Link
+                                    to="projects"
+                                    smooth={true}
+                                    offset={-50}
+                                    duration={100}
+                                    className="btn"
+                                >
                                     {HomeData.btn_1}
-                                </button>
-                                <button className="btn">
+                                </Link>
+                                <Link
+                                    to="contact"
+                                    smooth={true}
+                                    offset={-50}
+                                    duration={100}
+                                    className="btn"
+                                >
                                     {HomeData.btn_2}
-                                </button>
+                                </Link>
                             </span>
                         </div>
 

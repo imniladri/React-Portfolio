@@ -24,7 +24,7 @@ function About() {
                             <div className="exp">
                                 <h4>{AboutData.about_content_exp}</h4>
                                 <h6>
-                                    Years of <span>Experiance</span>
+                                    Years of <span>Experience</span>
                                 </h6>
                             </div>
                         </div>

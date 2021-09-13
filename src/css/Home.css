@@ -51,14 +51,14 @@ section#home div.home span {
     margin: 2rem 0;
 }
 
-section#home div.home span button {
+section#home div.home span .btn {
     padding: 1.2rem 4rem;
     font-size: 1.6rem;
     font-weight: 500;
     letter-spacing: 0.5px;
 }
 
-section#home div.home span button:nth-child(1) {
+section#home div.home span .btn:nth-child(1) {
     color: var(--darkwhite);
     background: var(--btnBg);
     border: 2px solid var(--btnBg);
@@ -66,18 +66,18 @@ section#home div.home span button:nth-child(1) {
     transition: all 0.4s ease;
 }
 
-section#home div.home span button:nth-child(1):hover {
+section#home div.home span .btn:nth-child(1):hover {
     background: var(--btnBgHover);
     border: 2px solid var(--btnBgHover);
     box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.25);
 }
 
-section#home div.home span button:nth-child(2) {
+section#home div.home span .btn:nth-child(2) {
     font-size: 1.8rem;
     transition: all 0.4s ease;
 }
 
-section#home div.home span button:nth-child(2):hover {
+section#home div.home span .btn:nth-child(2):hover {
     text-decoration: underline;
 }
 
@@ -126,7 +126,7 @@ section#home div.home img {
     section#home div.home p {
         line-height: 2;
     }
-    section#home div.home span button {
+    section#home div.home span .btn {
         padding: 1.2rem 2rem;
     }
     section#home div.home img {
