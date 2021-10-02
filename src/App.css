@@ -55,7 +55,7 @@ body {
     height: 10px;
 }
 ::-webkit-scrollbar-thumb {
-    background: var(--lightblack);
+    background: var(--darkblack);
 }
 
 /* **************************** Selection **************************** */
